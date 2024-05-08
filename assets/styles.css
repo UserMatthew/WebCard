@@ -1,0 +1,31 @@
+body{
+    display: flex;
+}
+
+#contenedor {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border: 2px solid aquamarine;
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 25px;
+}
+
+#nick {
+    width: 250px;
+    text-align: center;
+    color: rgb(128, 128, 128, 0.5);
+    border-radius: 10px;
+}
+
+#continuar {
+    border-radius: 10px;
+    background-color: aliceblue;
+    color: gray;  
+}
