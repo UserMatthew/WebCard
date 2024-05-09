@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
 body{
     display: flex;
+    /*Imagen de BG tomada de > https://www.pinterest.com.mx/pin/211174976232776/*/
+    background-image: url(./img/bg-kuromi.jpg);
 }
 
 #contenedor {
@@ -7,7 +11,7 @@ body{
     justify-content: center;
     text-align: center;
     align-items: center;
-    border: 2px solid aquamarine;
+    border: 2px solid rgb(202,197,237);
     width: 600px;
     height: 300px;
     position: absolute;
@@ -15,13 +19,24 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 25px;
+    background-color: rgb(81,66,131, 0.8);
+    font-family: "Poetsen One", sans-serif;
+    color: rgb(202,197,237);
+}
+
+#parrafo {
+   margin-left: 50px;
+   margin-right: 50px; 
+
+   
 }
 
 #nick {
     width: 250px;
     text-align: center;
-    color: rgb(128, 128, 128, 0.5);
+    color: rgb(86,86,86,0.5);
     border-radius: 10px;
+    font-size: 15px;
 }
 
 #continuar {
